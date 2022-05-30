@@ -1,0 +1,126 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:rgb(48, 42, 42) ;
+    margin: 0;
+}
+.header{
+    
+    text-align: end;
+
+    padding: 10px;
+
+}
+.header-first,.header-second{
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    padding: 5px;
+    color: white;
+}
+.header-first:hover,.header-second:hover{
+    text-decoration: underline;
+}
+.header-third{
+    padding: 5px;
+    color: white;
+}
+.header-fourth{
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+#button{
+    background-color:rgb(48, 41, 41) ;
+    border: 0;
+}
+#button:hover{
+    border-radius: 60%;
+    background-color:rgb(73, 60, 60)
+}
+.main-image{
+ text-align: center;
+ 
+}
+.main-search-div{
+background-color:rgb(48, 41, 41) ;
+ height: 40px;
+width: 520px;
+ position: relative;
+ top: 35px;
+ left: 31vw;
+ display: flex;
+ border: 1px solid rgb(151, 146, 146);
+ border-radius: 20px;
+}
+.main-search-div:hover{
+background-color:rgb(80, 68, 68) ;
+border: 1px solid rgb(80, 68, 68);
+}
+.search{
+  border-radius: 20px;
+    color: lightblue;
+    padding: 10px;
+
+}
+.mic{
+    border-radius: 20px;
+    color: lightblue;
+    padding: 10px;
+
+}
+.input input{
+    border: 0;
+    height: 38px;
+    width: 427px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+.input input:focus{
+    outline: 0;
+    color: white;
+    font-size: 15px;
+}
+.main-button{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    
+}
+.button1{
+    margin-right: 15px;
+}
+.button1, .button2{
+    background-color:rgb(80, 68, 68) ;
+    height: 35px;
+    width: 140px;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.button1:hover, .button2:hover{
+    border: 1px solid rgb(151, 146, 146);
+}
+.footer{
+    position: relative;
+    bottom: -46.5vh;
+}
+.footer-1{
+    background-color: black;
+    height: 40px;
+    margin-bottom: 1px;
+}
+.footer-2{
+    background-color: black;
+    height: 40px;
+}
+.footer-1-1{
+    padding: 12px 0px 0px 20px;
+    color: skyblue;
+    position: relative;
+    
+}
